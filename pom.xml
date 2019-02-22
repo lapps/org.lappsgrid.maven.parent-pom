@@ -32,6 +32,7 @@
 		<jaxws.plugin.version>2.2.1</jaxws.plugin.version>
 		<langrid.version>1.0.5</langrid.version>
 		<jackson.version>2.9.8</jackson.version>
+		<lapps.discriminator.version>2.4.0-SNAPSHOT</lapps.discriminator.version>
 	</properties>
 	<organization>
 		<name>The Language Application Grid</name>
