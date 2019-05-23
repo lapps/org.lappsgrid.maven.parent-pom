@@ -19,7 +19,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.lappsgrid.maven</groupId>
 	<artifactId>parent-pom</artifactId>
-	<version>2.2.1</version>
+	<version>2.2.2</version>
 	<packaging>pom</packaging>
 	<name>LAPPS Parent POM</name>
 	<description>Parent POM file for LAPPS projects</description>
@@ -31,7 +31,17 @@
 		<jaxws-ri.version>2.2.7</jaxws-ri.version>
 		<jaxws.plugin.version>2.2.1</jaxws.plugin.version>
 		<langrid.version>1.0.5</langrid.version>
-		<jackson.version>2.9.8</jackson.version>
+		<jackson.version>2.9.9</jackson.version>
+		<!--
+		<lapps.api.version>2.0.1</lapps.api.version>
+		<lapps.core.version>2.1.0-SNAPSHOT</lapps.core.version>
+		<lapps.client.version>2.1.0-SNAPSHOT</lapps.client.version>
+		<lapps.discriminator.version>2.4.0-SNAPSHOT</lapps.discriminator.version>
+		<lapps.serialization.version>2.7.0-SNAPSHOT</lapps.serialization.version>
+		<lapps.metadata.version>1.4.0-SNAPSHOT</lapps.metadata.version>
+		<lapps.vocabulary.version>2.5.0-SNAPSHOT</lapps.vocabulary.version>
+		<lapps.annoations.version>1.4.0-SNAPSHOT</lapps.annoations.version>
+		-->
 		<lapps.api.version>2.0.1</lapps.api.version>
 		<lapps.core.version>2.0.5</lapps.core.version>
 		<lapps.client.version>2.0.7</lapps.client.version>
