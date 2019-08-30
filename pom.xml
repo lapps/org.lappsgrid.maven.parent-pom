@@ -215,7 +215,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<!--
 	<distributionManagement>
 		<repository>
 			<id>sonatype-staging</id>
@@ -226,7 +225,6 @@
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-	-->
     <reporting>
         <plugins>
 			<plugin>
