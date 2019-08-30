@@ -19,27 +19,27 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.lappsgrid.maven</groupId>
 	<artifactId>parent-pom</artifactId>
-	<version>2.2.3</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>LAPPS Parent POM</name>
 	<description>Parent POM file for LAPPS projects</description>
 	<url>https://github.com/lapps/org.lappsgrid.maven.parent-pom</url>
 	<inceptionYear>2013</inceptionYear>
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jaxws-ri.version>2.2.7</jaxws-ri.version>
 		<jaxws.plugin.version>2.2.1</jaxws.plugin.version>
 		<langrid.version>1.0.5</langrid.version>
 		<jackson.version>2.9.9</jackson.version>
-		<lapps.api.version>2.0.1</lapps.api.version>
-		<lapps.core.version>2.1.0</lapps.core.version>
-		<lapps.client.version>2.1.0</lapps.client.version>
-		<lapps.discriminator.version>2.4.0</lapps.discriminator.version>
-		<lapps.serialization.version>2.7.0</lapps.serialization.version>
-		<lapps.metadata.version>1.4.0</lapps.metadata.version>
-		<lapps.vocabulary.version>2.5.0</lapps.vocabulary.version>
-		<lapps.annoations.version>1.4.0</lapps.annoations.version>
+		<lapps.api.version>3.0.0-SNAPSHOT</lapps.api.version>
+		<lapps.core.version>3.0.0-SNAPSHOT</lapps.core.version>
+		<lapps.client.version>3.0.0-SNAPSHOT</lapps.client.version>
+		<lapps.discriminator.version>3.0.0-SNAPSHOT</lapps.discriminator.version>
+		<lapps.serialization.version>3.0.0-SNAPSHOT</lapps.serialization.version>
+		<lapps.metadata.version>2.0.0-SNAPSHOT</lapps.metadata.version>
+		<lapps.vocabulary.version>3.0.0-SNAPSHOT</lapps.vocabulary.version>
+		<lapps.annoations.version>2.0.0-SNAPSHOT</lapps.annoations.version>
 	</properties>
 	<organization>
 		<name>The Language Application Grid</name>
@@ -177,7 +177,7 @@
 			<dependency>
 				<groupId>org.slf4j</groupId>
 				<artifactId>slf4j-api</artifactId>
-				<version>1.7.25</version>
+				<version>1.7.26</version>
 				<type>jar</type>
 				<scope>compile</scope>
 			</dependency>
