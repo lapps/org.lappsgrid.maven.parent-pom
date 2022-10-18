@@ -31,7 +31,7 @@
 		<jaxws-ri.version>2.2.7</jaxws-ri.version>
 		<jaxws.plugin.version>2.2.1</jaxws.plugin.version>
 		<langrid.version>1.0.5</langrid.version>
-		<jackson.version>2.9.9</jackson.version>
+		<jackson.version>2.13.4.1</jackson.version>
 		<lapps.api.version>2.0.1</lapps.api.version>
 		<lapps.core.version>2.1.0</lapps.core.version>
 		<lapps.client.version>2.1.0</lapps.client.version>
